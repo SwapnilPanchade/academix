@@ -60,4 +60,9 @@ public class EnrollmentDao {
         session.close();
         }
     }
+
+    public Enrollment getById(long id) {
+
+        return null;
+    }
 }

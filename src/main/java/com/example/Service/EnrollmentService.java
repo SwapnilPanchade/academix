@@ -30,4 +30,8 @@ public class EnrollmentService {
     public String deleteEnrollment(long id){
         return enrollmentDao.deleteEnrollment(id);
     }
+
+    public Enrollment getById(long id) {
+        return enrollmentDao.getById(id);
+    }
 }
